@@ -1,0 +1,17 @@
+.gridItem .image {
+    transition: 0.3s ease-out;
+}
+
+.gridItem:hover .image {
+    box-shadow: 0 0 0 2px #FFFFFF;
+    transform: scale(1.05);
+}
+
+.title {
+    border-bottom: 1px solid transparent;
+    transition: 0.3s ease-out;
+}
+
+.gridItem:hover .title {
+    border-color: rgb(255, 255, 255);
+}
