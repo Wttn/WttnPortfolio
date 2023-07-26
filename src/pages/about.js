@@ -20,6 +20,7 @@ const SocialButton = ({
             justifyContent={'center'}
             transition={'color 0.5s ease'}
             fontFamily={'Montserrat'}
+            target='_blank'
             _hover={{
                 textDecoration: 'underline',
                 transition: 'text-decoration 0.3s ease-out, color 0.3s ease-out'
@@ -60,7 +61,7 @@ const About = () => {
             <Container paddingY="24px" display="flex" align-items=" flex-start" gap="2rem" maxWidth="100%">
                 <Container maxWidth="100%" width="32.4375rem" align='start' padding="0rem" margin="0rem" >
                     <Text fontFamily="Montserrat" fontStyle="Normal" fontSize="16px" color="#1E1E1E" lineHeight="27px" fontWeight="400" padding="0" >
-                        I'm a UX designer from Brazil. I also get involved in my artistic side as an illustrator in my own time. I typically find myself working on personal projects and looking for methods to improve the experience. Whether it's examining current designs or generating new ideas.
+                        Brazilian UX designer that, in their spare time, also engages in my artistic side as an illustrator. I typically find myself working on personal projects and looking for methods to improve the experience. Whether it's examining current designs or generating new ideas.
                     </Text>
                     <Text fontFamily="Montserrat" fontStyle="Normal" fontSize="30px" color="#1E1E1E" fontWeight="400" margin="0rem" paddingY="8px"  >
                         My Career so far
@@ -77,13 +78,14 @@ const About = () => {
 
                     />
                     <Stack spacing="1.5rem" padding="32px">
-                        <SocialButton label={'Resume'} href={'https://dribbble.com/wttn'}>
+                        <SocialButton label={'Resume'} href={'../resume.pdf'} >
                             <FaFile />
                         </SocialButton>
                         <SocialButton label={'Linkedin'} href={'https://www.linkedin.com/in/weltton/'}>
                             <FaLinkedin />
                         </SocialButton>
                     </Stack>
+
                 </Container>
 
             </Container>
