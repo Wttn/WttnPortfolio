@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Box, Text, Image, Stack } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 

@@ -1,10 +1,10 @@
 import NextLink from 'next/link'
 import Image from 'next/image'
-import { Box, Text, LinkBox, LinkOverlay, Icon, Stack } from '@chakra-ui/react'
+import { Box, Text, LinkBox, LinkOverlay, Stack } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
 import styles from '../styles/works.module.css';
 
-export const GridHero = ({ children, id, title, thumbnail }) => (
+export const GridHero = ({ title, thumbnail }) => (
   <Stack
     paddingX="12px"
     paddingY="24px"
@@ -38,7 +38,7 @@ export const GridHero = ({ children, id, title, thumbnail }) => (
   </Stack>
 )
 
-export const WorkGrid = ({ children, id, title, thumbnail }) => (
+export const WorkGrid = ({ id, title, thumbnail }) => (
   <Box w="200px" textAlign="center" className={styles.gridItem}>
     <LinkBox
       as={NextLink}
@@ -49,7 +49,6 @@ export const WorkGrid = ({ children, id, title, thumbnail }) => (
       <Image
         src={thumbnail}
         alt={title}
-        className="grid-item-thumbnail"
         placeholder="blur"
         className={styles.image}
       />

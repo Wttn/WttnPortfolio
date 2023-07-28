@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Text, Stack, extendTheme } from "@chakra-ui/react"
+import { Container, Heading, SimpleGrid, Text, Stack } from "@chakra-ui/react"
 
 import Section from '../components/section'
 import Image from 'next/image'
@@ -30,7 +30,7 @@ const Page = () => {
         <span style={{ fontSize: "40px" }}>Hi! I’m Weltton.</span>
         <br />
         <span>
-          I'm a <strong>Multidisciplinary UX Designer</strong> from Brazil
+          I&apos;m a <strong>Multidisciplinary UX Designer</strong> from Brazil
         </span>
         <br />
         <span>

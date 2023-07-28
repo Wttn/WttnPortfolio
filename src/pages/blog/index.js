@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider, Stack, ChakraProvider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Stack } from '@chakra-ui/react'
 import Section from '../../components/section'
 import { WorkGrid } from '../../components/grid-item'
 
