@@ -2,7 +2,7 @@ import { Container, Heading, Stack, chakra, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 
 import { FaFile, FaLinkedin } from 'react-icons/fa'
-import AvatarProfile from '../../public/images/aboutphoto.png'
+import AvatarProfile from '../../public/images/profilephoto.png'
 
 
 const SocialButton = ({
