@@ -30,7 +30,7 @@ const Page = () => {
         <span style={{ fontSize: "40px" }}>Hi! I’m Weltton.</span>
         <br />
         <span>
-          I&apos;m a <strong>Multidisciplinary UX Designer</strong> from Brazil
+          <strong>Multidisciplinary UX Designer</strong> from Brazil
         </span>
         <br />
         <span>
