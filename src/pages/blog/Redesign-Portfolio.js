@@ -42,7 +42,7 @@ const Work = () => (
                                 {"I decided to improve my portfolio and show it more engagingly after becoming a professional in the field of user experience design (UX). After looking through my previously released portfolio, it gave the impression that I was looking for ways to get into the UX industry and present my knowledge. The projects in this initial portfolio, which I put together while earning the Google UX certification through Coursera, were ones I worked on throughout the course and as an IT analyst. Although it was a significant turning point, once I began working in the industry directly, I felt the need to create a fresh portfolio that better reflected my work and personality."}
                             </P>
                             <P>
-                                {"One of the most significant changes I made was creating a page that presented the projects clearly and approached my work more directly. Although I had chosen a "One Page" website format for my previous portfolio, some comments mentioned that it was too lengthy. Taking advantage of this feedback, I decided to build a new portfolio with topics divided into separate pages to provide a better user experience."}
+                                {"One of the most significant changes I made was creating a page that presented the projects clearly and approached my work more directly. Although I had chosen a One Page website format for my previous portfolio, some comments mentioned that it was too lengthy. Taking advantage of this feedback, I decided to build a new portfolio with topics divided into separate pages to provide a better user experience."}
                             </P>
 
                         </VStack>
