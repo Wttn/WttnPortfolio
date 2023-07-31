@@ -1,8 +1,8 @@
 import { Container, Heading, SimpleGrid, Stack } from '@chakra-ui/react'
 import Section from '../../components/section'
-import { WorkGrid } from '../../components/grid-item'
+import { BlogGrid } from '../../components/grid-item'
 
-import ThumbAgro from '../../../public/images/thumbnail/Design-system1.png'
+import thumbRedesign from '../../../public/images/thumbnail/RedesignPortfolio-thumbnail.png'
 
 const Blog = () => {
     return (
@@ -19,13 +19,11 @@ const Blog = () => {
 
                 <SimpleGrid columns={[1, 2, 2]} gap={6} mt={16}>
                     <Section>
-                        <WorkGrid id="AgrosolAppRegistroReclamacao" title="Agro-Sol App Registro de Reclamação" thumbnail={ThumbAgro}>
-                        </WorkGrid>
+                        <BlogGrid id="Redesign-Portfolio" title="Redesign Portfolio" thumbnail={thumbRedesign}>
+                        </BlogGrid>
                     </Section>
                     <Section>
-                        <WorkGrid id="inkdrop" title="Inkdrop" thumbnail={ThumbAgro}>
-                            A markdown note-taking app
-                        </WorkGrid>
+
                     </Section>
 
 

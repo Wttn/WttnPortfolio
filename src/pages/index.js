@@ -37,16 +37,16 @@ const Page = () => {
           I Design for Humans from Humans.
         </span>
       </Text>
-      <div style={{ padding: "0 27px" }}>
+      <div style={{ padding: "0 1.6875em" }}>
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'relative' }}>
 
           <Stack
             direction="row"
             justify="center"
             align="center"
-            spacing="16px"
-            width="364px"
-            height="326px"
+            spacing="1em"
+            width="22.75em"
+            height="20.375em"
             maxWidth="100%"
             mt={6}>
             <SimpleGrid columns={[1, 2, 2]} gap={3}>
@@ -56,7 +56,7 @@ const Page = () => {
               <GridHero thumbnail={IconMakeSimple} title="Make Simple" />
             </SimpleGrid>
           </Stack>
-          <div style={{ right: '-200px', position: 'absolute', top: '-35px' }}>
+          <div style={{ right: '-12.5em', position: 'absolute', top: '-2.1875em' }}>
             <Image
               src={Avatar}
               alt={"Weltton"}
@@ -69,11 +69,11 @@ const Page = () => {
           <Heading
             fontFamily="Montserrat"
             fontWeight="bold"
-            fontSize="36px"
+            fontSize="2.25rem"
             color="#FFFFFF">
             Latest Works
           </Heading>
-          <SimpleGrid columns={4} spacing="32px" mt={16}>
+          <SimpleGrid columns={4} spacing="2em" mt={16}>
             <Section>
               <WorkGrid id="AgrosolAppRegistroReclamacao" title="AgroSol App Registro de Reclamação" thumbnail={ThumbAgro}>
               </WorkGrid>
@@ -81,13 +81,6 @@ const Page = () => {
             <Section>
               <WorkGrid id="inkdrop" title="Agrosol Design System" thumbnail={ThumbAgro}>
                 A markdown note-taking app
-              </WorkGrid>
-            </Section>
-            <Section>
-              <WorkGrid id="AgrosolDesignSystem" title="Agro-Sol Design System" thumbnail={ThumbAgro}>
-              </WorkGrid>
-            </Section> <Section>
-              <WorkGrid id="AgrosolDesignSystem" title="Agro-Sol Design System" thumbnail={ThumbAgro}>
               </WorkGrid>
             </Section>
           </SimpleGrid>

@@ -79,3 +79,36 @@ export const GridItemStyle = () => (
     `}
   />
 )
+
+
+export const BlogGrid = ({ id, title, thumbnail }) => (
+  <Box w="200px" textAlign="center" className={styles.gridItem}>
+    <LinkBox
+      as={NextLink}
+      href={`/blog/${id}`}
+      scroll={false}
+      cursor="pointer"
+    >
+      <Image
+        src={thumbnail}
+        alt={title}
+        placeholder="blur"
+        className={styles.image}
+      />
+      <LinkOverlay as="div" href={`/works/${id}`}>
+        <Box width="200px" height="50px" borderColor="#FFFFFF" />
+        <Text
+          t={2}
+          fontSize={14}
+          fontFamily='Montserrat, sans-serif'
+          color="#FFFFFF"
+          flex="1"
+          alignSelf="stretch"
+          textAlign="center"
+          _hover={{ textDecoration: "underline" }}>
+          {title}
+        </Text>
+      </LinkOverlay>
+    </LinkBox>
+  </Box>
+)

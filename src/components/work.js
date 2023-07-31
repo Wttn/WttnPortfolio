@@ -2,7 +2,7 @@ import { Heading, Box, Image, Badge } from '@chakra-ui/react'
 
 export const Title = ({ children }) => (
   <Box>
-    <Heading display="inline-block" fontSize="42px" fontFamily="Inter" color="#1A1B1F" textAlign="center">
+    <Heading fontSize="42px" fontFamily="Inter" color="#1A1B1F">
       {children}
     </Heading>
   </Box>
@@ -10,7 +10,7 @@ export const Title = ({ children }) => (
 
 export const HeadingArticle = ({ children }) => (
   <Box>
-    <Heading display="inline-block" fontSize="23px" fontFamily="Inter" color="#1A1B1F" fontWeight="Medium" >
+    <Heading display="inline-block" fontSize="23px" fontFamily="Inter" color="#1A1B1F" fontWeight="500" >
       {children}
     </Heading>
   </Box>
@@ -36,3 +36,10 @@ export const Meta = ({ children }) => (
   </Badge>
 )
 
+export const DescriptionImage = ({ children }) => (
+  <Box>
+    <Heading display="inline-block" fontFamily="Montserrat" fontSize="14px" color="#1A1B1F" fontWeight="300" >
+      {children}
+    </Heading>
+  </Box>
+)
