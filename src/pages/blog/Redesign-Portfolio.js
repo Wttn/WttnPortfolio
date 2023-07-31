@@ -56,7 +56,7 @@ const Work = () => (
                                 />
                             </Box>
                             <DescriptionImage>
-                                A comparison of the hero section portfolios from the old and new
+                                A comparison of the hero section portfolios from the old and new.
                             </DescriptionImage>
                         </Stack>
                         <VStack spacing="0.5rem" align='start' >
@@ -94,7 +94,7 @@ const Work = () => (
                                 />
                             </Box>
                             <DescriptionImage>
-                                A comparison between the new Illustration dedicated page and previous Illustration section
+                                A comparison between the new Illustration dedicated page and previous Illustration section.
                             </DescriptionImage>
                         </Stack>
                         <VStack align="left" gap="0.25rem" >
