@@ -49,8 +49,8 @@ const Work = () => (
                         <Stack align="center">
                             <Box maxW="fit-content" boxShadow={"0px 8px 15px 0px rgba(51, 51, 51, 0.15)"} mt="1.5rem" mb="1.5rem" >
                                 <ReactCompareSlider
-                                    itemOne={<ReactCompareSliderImage src="../images/blog/hero-old.png" srcSet="../images/blog/hero-old.png" alt="Oldest hero section of portfolio " />}
-                                    itemTwo={<ReactCompareSliderImage src="../images/blog/hero-new.png" srcSet="../images/blog/hero-new.png" alt="The new hero section of portfolio" />}
+                                    itemOne={<ReactCompareSliderImage src="/images/blog/hero-old.png" srcSet="/images/blog/hero-old.png" alt="Oldest hero section of portfolio " />}
+                                    itemTwo={<ReactCompareSliderImage src="/images/blog/hero-new.png" srcSet="/images/blog/hero-new.png" alt="The new hero section of portfolio" />}
                                 />
                             </Box>
                             <DescriptionImage>
@@ -87,8 +87,8 @@ const Work = () => (
                         <Stack align="center">
                             <Box maxW="fit-content" boxShadow={"0px 8px 15px 0px rgba(51, 51, 51, 0.15)"} mt="1.5rem" mb="1.5rem" >
                                 <ReactCompareSlider
-                                    itemOne={<ReactCompareSliderImage src="../images/blog/illustration-new.png" srcSet="../images/blog/illustration-new.png" alt="Image one" />}
-                                    itemTwo={<ReactCompareSliderImage src="../images/blog/illustration-old.png" srcSet="../images/blog/illustration-old.png" alt="Image two" />}
+                                    itemOne={<ReactCompareSliderImage src="/images/blog/illustration-new.png" srcSet="/images/blog/illustration-new.png" alt="Image one" />}
+                                    itemTwo={<ReactCompareSliderImage src="/images/blog/illustration-old.png" srcSet="/images/blog/illustration-old.png" alt="Image two" />}
                                 />
                             </Box>
                             <DescriptionImage>
