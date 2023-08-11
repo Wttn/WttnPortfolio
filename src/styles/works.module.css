@@ -3,8 +3,8 @@
 }
 
 .gridItem:hover .image {
-    box-shadow: 0 0 0 2px #FFFFFF;
-    transform: scale(1.05);
+
+    transform: scale(1.10);
 }
 
 .title {

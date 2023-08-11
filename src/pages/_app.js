@@ -5,6 +5,7 @@ import "./app.css"
 import '../styles/global.css'
 
 
+
 const Website = ({ Component, pageProps, router }) => {
     return (
         <ChakraProvider>

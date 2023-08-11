@@ -16,7 +16,7 @@ const Work = () => (
     <Layout title="Redesign Portfolio"  >
         <Container maxW="container.full" paddingX={0}>
             <Center my={6} w={'full'} backgroundSize={'cover'} backgroundPosition={'center center'} bgColor="black" >
-                <Image src="/images/blog/new-portfolio-post.png" alt="Wttn logo post" />
+                <Image src="../images/blog/new-portfolio-post.png" alt="Wttn logo post" padding="24px" />
             </Center>
             <Container maxWidth="100%" mt="2rem">
                 <VStack spacing="1.5rem" align='center'>
@@ -33,7 +33,7 @@ const Work = () => (
 
                     </VStack >
                     <VStack align="left" spacing="1rem" width="49rem" flexGrow={1} mt="16px">
-                        <VStack spacing="0.5rem" align='start' >
+                        <VStack spacing="1rem" align='start' >
                             <HeadingArticle>
                                 Introduction
                             </HeadingArticle>
