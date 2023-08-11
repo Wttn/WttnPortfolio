@@ -1,5 +1,4 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
 import NextLink from 'next/link'
 import {
     Container,
@@ -11,7 +10,7 @@ import {
     Button
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { Title, Type, HeadingArticle, DescriptionImage } from '../../components/work'
+import { Title, Type, DescriptionImage } from '../../components/work'
 import P from '../../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 

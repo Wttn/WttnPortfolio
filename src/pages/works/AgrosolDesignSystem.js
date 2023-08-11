@@ -1,7 +1,5 @@
 import {
     Container,
-    ListItem,
-    UnorderedList,
     Center,
     Image,
     VStack,

@@ -53,8 +53,7 @@ MenuLink.displayName = 'MenuLink';
 
 const Navbar = (props) => {
   const { path } = props;
-  const { t, i18n } = useTranslation();
-  const router = useRouter();
+  const { i18n } = useTranslation();
 
   const changeLanguage = (language) => {
     i18n.changeLanguage(language);
