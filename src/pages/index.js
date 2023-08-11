@@ -6,17 +6,21 @@ import Image from 'next/image'
 import { WorkGrid } from '../components/grid-item'
 import { GridHero } from '../components/grid-item'
 
+import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 import IconEmpathy from '../../public/images/icon/Empathy.png'
 import IconIdeation from '../../public/images/icon/Ideation.png'
 import IconMakeSimple from '../../public/images/icon/MakeSimple.png'
 import IconResearch from '../../public/images/icon/Research.png'
-import ThumbAgro from '../../public/images/thumbnail/Design-system1.png'
+import ThumbAgro from '../../public/images/thumbnail/AppReclamacaoAgrosol-thumbnail.png'
+import ThumbHotelAvenida from '../../public/images/thumbnail/HotelAvenida-thumbnail.png'
+import ThumbAgroDesignSystem from '../../public/images/thumbnail/AgrosolDesignSystem-thumbnail.png'
 import Avatar from '../../public/images/avatar.png'
 
 
-
 const Page = () => {
+  const { t } = useTranslation();
   return (
     <Container maxW="container.lg" >
       <Text
@@ -27,15 +31,13 @@ const Page = () => {
         minHeight="131px"
         textAlign="center"
       >
-        <span style={{ fontSize: "40px" }}>Hi! I’m Weltton.</span>
+        <span style={{ fontSize: "40px" }}>{t('home.greeting')}</span>
         <br />
         <span>
-          <strong>Multidisciplinary UX Designer</strong> from Brazil
+          <strong>{t('home.description')}</strong> {t('home.from')}
         </span>
         <br />
-        <span>
-          I Design for Humans from Humans.
-        </span>
+        <span>{t('home.designPhilosophy')}</span>
       </Text>
       <div style={{ padding: "0 1.6875em" }}>
         <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', position: 'relative' }}>
@@ -75,11 +77,15 @@ const Page = () => {
           </Heading>
           <SimpleGrid columns={4} spacing="2em" mt={16}>
             <Section>
-              <WorkGrid id="AgrosolAppRegistroReclamacao" title="AgroSol App Registro de Reclamação" thumbnail={ThumbAgro}>
+              <WorkGrid id="AgrosolAppRegistroReclamacao" title="Agro-Sol APP Registro de Reclamação" thumbnail={ThumbAgro}>
               </WorkGrid>
             </Section>
             <Section>
-              <WorkGrid id="inkdrop" title="Agrosol Design System" thumbnail={ThumbAgro}>
+              <WorkGrid id="AgrosolDesignSystem" title="Agro-Sol Design System" thumbnail={ThumbAgroDesignSystem}>
+              </WorkGrid>
+            </Section>
+            <Section>
+              <WorkGrid id="HotelAvenida" title="Hotel Avenida" thumbnail={ThumbHotelAvenida}>
                 A markdown note-taking app
               </WorkGrid>
             </Section>
@@ -91,4 +97,4 @@ const Page = () => {
 };
 
 
-export default Page
+export default Page;
