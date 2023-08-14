@@ -1,4 +1,6 @@
 import { Container, Heading, SimpleGrid, Stack } from '@chakra-ui/react'
+import { useTranslation } from 'react-i18next';
+
 import Section from '../../components/section'
 import { WorkGrid } from '../../components/grid-item'
 import ThumbAgro from '../../../public/images/thumbnail/AppReclamacaoAgrosol-thumbnail.png'
@@ -6,6 +8,7 @@ import ThumbHotelAvenida from '../../../public/images/thumbnail/HotelAvenida-thu
 import ThumbAgroDesignSystem from '../../../public/images/thumbnail/AgrosolDesignSystem-thumbnail.png'
 
 const Works = () => {
+    const { t } = useTranslation();
     return (
         <Stack>
             <Container>
@@ -15,7 +18,7 @@ const Works = () => {
                     fontSize="36px"
                     color="#FFFFFF"
                     mt={16}>
-                    Works
+                    {t('home.latestWorks')}
                 </Heading>
 
                 <SimpleGrid columns={[1, 2, 2]} gap={6} mt={16}>

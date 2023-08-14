@@ -12,6 +12,7 @@ const Main = ({ children, router }) => {
     <Box as="main" style={{ background: pageBackground, minHeight: "100vh", display: "flex", flexDirection: "column" }}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale1" />
+        <link rel="shortcut icon" href='/images/favicon.ico' />
         <title> Wttn Portfolio</title>
       </Head>
       <Navbar path={router.asPath} />

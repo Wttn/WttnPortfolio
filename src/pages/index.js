@@ -52,10 +52,10 @@ const Page = () => {
             maxWidth="100%"
             mt={6}>
             <SimpleGrid columns={[1, 2, 2]} gap={3}>
-              <GridHero thumbnail={IconIdeation} title="Ideation" />
-              <GridHero thumbnail={IconResearch} title="Research" />
-              <GridHero thumbnail={IconEmpathy} title="Empathy" />
-              <GridHero thumbnail={IconMakeSimple} title="Make Simple" />
+              <GridHero thumbnail={IconIdeation} title={t('home.headerGrid.ideation')} />
+              <GridHero thumbnail={IconResearch} title={t('home.headerGrid.research')} />
+              <GridHero thumbnail={IconEmpathy} title={t('home.headerGrid.empathy')} />
+              <GridHero thumbnail={IconMakeSimple} title={t('home.headerGrid.makeSimple')} />
             </SimpleGrid>
           </Stack>
           <div style={{ right: '-12.5em', position: 'absolute', top: '-2.1875em' }}>
@@ -73,7 +73,7 @@ const Page = () => {
             fontWeight="bold"
             fontSize="2.25rem"
             color="#FFFFFF">
-            Latest Works
+            {t('home.latestWorks')}
           </Heading>
           <SimpleGrid columns={4} spacing="2em" mt={16}>
             <Section>

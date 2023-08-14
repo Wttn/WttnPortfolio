@@ -1,8 +1,53 @@
 {
+    "navbar": {
+        "about": "Sobre",
+        "works": "Projetos",
+        "illustrations": "Ilustrações"
+    },
     "home": {
         "greeting": "Olá! Eu sou Weltton.",
-        "description": "Designer de UX multidisciplinar",
-        "from": "do Brasil",
-        "designPhilosophy": "Design para seres humanos, por seres humanos."
+        "description": "UX Designer Multidisciplinar",
+        "from": " ",
+        "designPhilosophy": "Design para  humanos, por humanos.",
+        "headerGrid": {
+            "ideation": "Ideação",
+            "research": "Pesquisa",
+            "empathy": "Empatia",
+            "makeSimple": "Simplifique"
+        },
+        "latestWorks": "Últimos projetos"
+    },
+    "about": {
+        "helloHeader": "E aí, tudo bem?",
+        "nameHeader": "Me chamo Weltton Ortega",
+        "aboutIntroduction": " UX Designer, ilustrador no tempo livre, normalmente me encontro trabalhando em projetos pessoais buscando melhorar a minha experiência. Seja estudando, trabalhando,analisando ou trabalhando em novas ideias.",
+        "aboutHeader2": "Minha trajetória ",
+        "aboutText": "Minha formação envolve uma formação em redes de computadores, trabalhei como analista de TI, onde fui responsável pela gestão de servidores, manutenção de bancos de dados e responsabilidade na gestão pelo departamento de TI. Tive a oportunidade de trabalhar com diversos usuários em suporte, instruções e treinamento durante o meu tempo como profissional. Essas discussões me deram a chance de ouvir sobre suas preocupações e ideias, o que me fez querer criar soluções que resolvessem seus problemas. Foi assim que conheci a área de UX Design, me envolvendo em atividades como testes de usuário, pesquisa, aprimoramento de interfaces e coleta de feedback. Devido ao meu contato próximo com  pessoas, sempre me envolvi em criações de soluções que atendessem às suas demandas. Tomei a decisão de que meu objetivo seria desenvolver soluções , designs acessíveis e amigáveis ao usuário, após perceber que muitas das soluções disponíveis não eram efetivamente usadas devido a escolhas ruins de design , criando confusão e desconforto entre os usuários. Espero ter um impacto positivo na vida das pessoas dessa maneira, Fui inspirado a seguir uma carreira em UX design por conta de minha vivencia profissional."
+    },
+    "hotelAvenida": {
+        "job": "Analista de TI / UI/UX Designer",
+        "paragraph1": "O projeto do Hotel Avenida teve início em 2019 com o objetivo de construir um site moderno e funcional que pudesse ser integrado ao motor de reservas do hotel. Um dos principais objetivos era tornar a reserva online fácil e consistente.",
+        "paragraph2": "O desenvolvimento foi realizado usando o WordPress e empregou uma estrutura de página com temas modulares personalizados para facilitar a manutenção de acordo com os requisitos do hotel.",
+        "paragraph3": "Ao trabalhar com o WordPress para realizar a visão do Hotel Avenida, conseguimos abordar os requisitos de design identificados por meio de análises competitivas e também atender às demandas de design. Essa abordagem permitiu a criação de uma presença digital que se alinhava com a identidade do hotel e atendia às demandas do mercado. ",
+        "paragraph4": "O processo colaborativo de classificação de cartões ajudou a definir a arquitetura da informação. Esse método participativo criou uma navegação eficaz que facilita a exploração dos visitantes, auxiliando-os a encontrar facilmente tudo o que precisam, desde informações sobre quartos até instalações e eventos.",
+        "paragraph5": "Destacamos a integração bem-sucedida entre o site e o motor de reservas do sistema do hotel, permitindo que os hóspedes busquem opções de acomodação e façam reservas sem esforço. Essa implementação robusta oferece uma experiência contínua desde a pesquisa inicial até o momento do check-out."
+    },
+    "agrosolDesign": {
+        "overviewHeader": "Visão Geral",
+        "overviewParagraph": "O Sistema de Design Agro-sol foi desenvolvido para abordar discrepâncias que surgiam durante a criação de aplicações PowerApps. Recomendei o desenvolvimento de um design system após perceber que a sua ausência estava prejudicando a consistência das aplicações e degradando a experiência do usuário.",
+        "objectiveHeader": "Objetivo",
+        "objectiveParagraph": "O principal objetivo do Agro-sol Design System era estabelecer diretrizes robustas de design e desenvolvimento, com foco em design centrado no usuário, inclusividade, simplicidade e consistência. O sistema buscava padronizar a funcionalidade e o design visual das aplicações para proporcionar aos usuários uma experiência agradável.",
+        "methodologyHeader": "Metodologia",
+        "methodologyParagraph": "O processo de construção do design system adotou a metodologia do Atomic Design System, desenvolvida por Brad Frost em 2013. Este projeto foi dividido em três estágios fundamentais:",
+        "image1Description": " Estrutura Atomic Design.",
+        "stage1Header": "Estágio 1 - Mapeamento e Criações de Patterns",
+        "stage1Paragraph": "Nesta fase, foi realizado um mapeamento e construção de padrões de design, incluindo suas estruturas, cores, tipografia, ícones e componentes. Isso facilitou a construção de uma base sólida para o sistema e garantiu uniformidade estética e funcional em todas as aplicações.",
+        "stage2Header": "Estágio 2 - Documentação das Melhores Práticas",
+        "stage2Paragraph": "Após mapear todos os componentes, o foco foi direcionado para a criação de documentação que direcionasse as melhores práticas para a construção de telas e o uso de componentes do sistema. Isso garantiu alinhamento com as diretrizes estabelecidas.",
+        "stage3Header": "Estágio 3 - Preparação para o Futuro",
+        "stage3Paragraphg": "O terceiro estágio concentrou-se nas atividades futuras. Isso incluiu a revisão contínua do design system para atender aos requisitos de acessibilidade na constante evolução, bem como preparar o design system para ser aplicado além do ambiente PowerApps, ampliando assim seu impacto em outros sistemas utilizados pela empresa, onde não possui a área de UX.",
+        "image2Description": "Fragmento biblioteca de UI.",
+        "outcomeHeader": "Resultado",
+        "outcomeParagraph": "Ao adotar práticas de design consistentes e centradas no usuário, otimizar o desenvolvimento, melhorar a usabilidade e fornecer uma experiência mais coesa em todas as interações, o design system teve um impacto significativo. O design system está preparado para evoluir e atender às  demandas de acessibilidade e ser aplicado em diversas situações, garantindo uma melhor experiência do usuário em plataformas distintas."
     }
 }

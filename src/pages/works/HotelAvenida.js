@@ -13,9 +13,11 @@ import Layout from '../../components/layouts/article'
 import { Title, Type, DescriptionImage } from '../../components/work'
 import P from '../../components/paragraph'
 import { ChevronRightIcon } from '@chakra-ui/icons'
+import { useTranslation } from 'react-i18next';
 
 
 const Work = () => {
+    const { t } = useTranslation();
     return (
         <Layout title={'Hotel Avenida'}>
             <Container maxW="container.full" paddingX={0}>
@@ -32,7 +34,7 @@ const Work = () => {
                             </Title>
 
                             <Type>
-                                IT Analyst / UI/UX Designer
+                                {t('hotelAvenida.job')}
                             </Type>
 
                         </VStack >
@@ -40,19 +42,19 @@ const Work = () => {
                             <VStack spacing="1rem" align='start' >
 
                                 <P>
-                                    {"The Avenida Hotel project began in 2019 with the goal of building a modern and functional website that could be integrated with the hotel's reservation engine. One of the main objectives was to make online booking easy and consistent."}
+                                    {t('hotelAvenida.paragraph1')}
                                 </P>
                                 <P>
-                                    {"The development was carried out using WordPress and employed a page structure with custom modular themes to facilitate maintenance according to the hotel's requirements."}
+                                    {t('hotelAvenida.paragraph2')}
                                 </P>
                                 <P>
-                                    {"By working with WordPress to realize the Avenida Hotel's vision, we were able to address the design requirements identified through competitive analyses and also meet design demands. This approach allowed for the creation of a digital presence that aligned with the hotel's identity and catered to market demands."}
+                                    {t('hotelAvenida.paragraph3')}
                                 </P>
                                 <P>
-                                    {" The collaborative card sorting process helped define the information architecture. This participatory method created effective navigation that facilitates visitors' exploration, aiding them in easily finding everything they need, from room information to facilities and events."}
+                                    {t('hotelAvenida.paragraph4')}
                                 </P>
                                 <P>
-                                    {"We highlight the successful integration between the website and the hotel system's reservation engine, enabling guests to effortlessly search for accommodation options and make reservations. This robust implementation provides a seamless experience from the initial search to the check-out moment."}
+                                    {t('hotelAvenida.paragraph5')}
                                 </P>
 
                             </VStack>

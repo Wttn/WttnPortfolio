@@ -1,8 +1,53 @@
 {
+    "navbar": {
+        "about": "About",
+        "works": "Works",
+        "illustrations": "Illustrations"
+    },
     "home": {
         "greeting": "Hi! I’m Weltton.",
         "description": "Multidisciplinary UX Designer",
         "from": "from Brazil",
-        "designPhilosophy": "I Design for Humans from Humans."
+        "designPhilosophy": "I Design for Humans from Humans.",
+        "headerGrid": {
+            "ideation": "Ideation",
+            "research": "Research",
+            "empathy": "Empathy",
+            "makeSimple": "Make Simple"
+        },
+        "latestWorks": "Latest Works"
+    },
+    "about": {
+        "helloHeader": "Hey, there!",
+        "nameHeader": "I'm Weltton Ortega",
+        "aboutIntroduction": "Brazilian UX designer that, in their spare time, also engages in my artistic side as an illustrator. I typically find myself working on personal projects and looking for methods to improve the experience. Whether it's examining current designs or generating new ideas.",
+        "aboutHeader2": "My Career so far",
+        "aboutText": "My background involves a degree in computer networks and working as an IT analyst, where I've been responsible for server management, database maintenance, and IT department leadership. I've gotten the opportunity to work with a variety of users in support, instruction, and training, during my time as a professional. These discussions gave me the chance to hear about their worries as well as ideas, which made me want to create programs that would solve their issues. That's how I met UX Design, immersing myself in activities such as user testing, research, interface enhancement, and feedback gathering. Because of my intimate contact with people, I always gave priority to creating solutions that addressed their demands. I made the decision that my objective would be to develop accessible and user-friendly solutions and designs after realizing that many readily available solutions were not used effectively owing to bad design choices, creating confusion and unease among users. I hope to have a positive impact on people's lives in this way. I was inspired to pursue a profession in UX design because of this."
+    },
+    "hotelAvenida": {
+        "job": "IT Analyst / UI/UX Designer",
+        "paragraph1": "The Avenida Hotel project began in 2019 with the goal of building a modern and functional website that could be integrated with the hotel's reservation engine. One of the main objectives was to make online booking easy and consistent.",
+        "paragraph2": "The development was carried out using WordPress and employed a page structure with custom modular themes to facilitate maintenance according to the hotel's requirements.",
+        "paragraph3": "By working with WordPress to realize the Avenida Hotel's vision, we were able to address the design requirements identified through competitive analyses and also meet design demands. This approach allowed for the creation of a digital presence that aligned with the hotel's identity and catered to market demands.",
+        "paragraph4": "The collaborative card sorting process helped define the information architecture. This participatory method created effective navigation that facilitates visitors' exploration, aiding them in easily finding everything they need, from room information to facilities and events.",
+        "paragraph5": "We highlight the successful integration between the website and the hotel system's reservation engine, enabling guests to effortlessly search for accommodation options and make reservations. This robust implementation provides a seamless experience from the initial search to the check-out moment."
+    },
+    "agrosolDesign": {
+        "overviewHeader": "Overview",
+        "overviewParagraph": "The Agro-sol Design System was developed to address discrepancies that appeared during the creation of PowerApps applications. I recommended the development of a design system after realizing that the absence of standardization was harming application consistency and degrading user experience.",
+        "objectiveHeader": "Objective",
+        "objectiveParagraph": "The primary goal of the Agro-sol Design System was to establish robust design and development guidelines, focusing on user-centricity, inclusivity, simplicity, and consistency. The system wanted to standardize application functionality and visual design in order to give consumers a seamless and enjoyable experience.",
+        "methodologyHeader": "Methodology",
+        "methodologyParagraph": "The design system construction process adopted the Atomic Design System methodology, developed by Brad Frost in 2013. This project was divided into three fundamental stages:",
+        "image1Description": "Atomic Design Structure.",
+        "stage1Header": "Stage 1 - Pattern Mapping",
+        "stage1Paragraph": "A thorough mapping of design patterns, including their structures, colors, typography, icons, and components, was done in this phase. This made it easier to build a strong system foundation and ensured aesthetic and functional uniformity across all apps.",
+        "stage2Header": "Stage 2 - Best Practices Documentation",
+        "stage2Paragraph": "After mapping all components, focus was shifted towards creating documentation outlining best practices for screen construction and the use of system components. This ensured alignment with established guidelines.",
+        "stage3Header": "Stage 3 - Future Preparedness",
+        "stage3Paragraphg": "The third stage centered around future activities. This encompassed the ongoing review of the design system to meet ever-evolving accessibility requirements, as well as preparing the design system for application beyond the PowerApps environment, thereby expanding its impact.",
+        "image2Description": "Small Part of UI Library.",
+        "outcomeHeader": "Outcome",
+        "outcomeParagraph": "By embracing consistent and user-centered design practices, optimizing development, improving usability, and delivering a more cohesive experience across all interactions, the design system has made a significant impact. The design system is poised to evolve to meet the growing demands of accessibility and to be applied in a variety of contexts, ensuring a user experience across diverse platforms."
     }
 }

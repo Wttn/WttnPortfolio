@@ -19,7 +19,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en-US',
-    debug: true,
+    debug: false,
     keySeparator: '.',
     interpolation: {
       escapeValue: false,
