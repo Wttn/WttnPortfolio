@@ -1,0 +1,51 @@
+.heroBlock {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.workGridBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.worksContainer {
+  margin-top: 128px;
+}
+
+@media (min-width: 1365px) {
+  .heroBlock {
+    position: relative;
+  }
+
+  .heroImage {
+    right: -12.5em;
+    position: absolute;
+    top: -2.1875em;
+  }
+}
+
+@media (max-width: 1365px) {
+  .mainContainer {
+    padding-inline: 2em !important;
+  }
+
+  .worksContainer {
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 950px) {
+  .heroBlock {
+    justify-content: center;
+  }
+
+  .heroImage {
+    display: none;
+  }
+
+  .worksContainer {
+    margin-top: 128px !important;
+  }
+}

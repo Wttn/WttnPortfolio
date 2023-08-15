@@ -2,7 +2,7 @@ import NextLink from 'next/link'
 import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay, Stack } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
-import styles from '../styles/works.module.css';
+import styles from '../styles/works.module.css'
 
 export const GridHero = ({ title, thumbnail }) => (
   <Stack
@@ -17,7 +17,8 @@ export const GridHero = ({ title, thumbnail }) => (
     borderBottomWidth="3px"
     width="174px"
     height="160px"
-    background="#FFFFFF">
+    background="#FFFFFF"
+  >
     <Image
       src={thumbnail}
       alt={title}
@@ -32,7 +33,8 @@ export const GridHero = ({ title, thumbnail }) => (
       fontWeight="medium"
       color="#000000"
       width="150px"
-      textAlign="center">
+      textAlign="center"
+    >
       {title}
     </Text>
   </Stack>
@@ -57,12 +59,13 @@ export const WorkGrid = ({ id, title, thumbnail }) => (
         <Text
           t={2}
           fontSize={14}
-          fontFamily='Montserrat, sans-serif'
+          fontFamily="Montserrat, sans-serif"
           color="#FFFFFF"
           flex="1"
           alignSelf="stretch"
           textAlign="center"
-          _hover={{ textDecoration: "underline" }}>
+          _hover={{ textDecoration: 'underline' }}
+        >
           {title}
         </Text>
       </LinkOverlay>
@@ -80,15 +83,9 @@ export const GridItemStyle = () => (
   />
 )
 
-
 export const BlogGrid = ({ id, title, thumbnail }) => (
   <Box w="200px" textAlign="center" className={styles.gridItem}>
-    <LinkBox
-      as={NextLink}
-      href={`/blog/${id}`}
-      scroll={false}
-      cursor="pointer"
-    >
+    <LinkBox as={NextLink} href={`/blog/${id}`} scroll={false} cursor="pointer">
       <Image
         src={thumbnail}
         alt={title}
@@ -100,12 +97,13 @@ export const BlogGrid = ({ id, title, thumbnail }) => (
         <Text
           t={2}
           fontSize={14}
-          fontFamily='Montserrat, sans-serif'
+          fontFamily="Montserrat, sans-serif"
           color="#FFFFFF"
           flex="1"
           alignSelf="stretch"
           textAlign="center"
-          _hover={{ textDecoration: "underline" }}>
+          _hover={{ textDecoration: 'underline' }}
+        >
           {title}
         </Text>
       </LinkOverlay>
