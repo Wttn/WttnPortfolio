@@ -90,7 +90,9 @@ const Navbar = (props) => {
             flexGrow={32}
             mt={{ base: 4, md: 0 }}
           >
-            <LinkItem href="/">Home</LinkItem>
+            <LinkItem href="/">
+              {t('navbar.home')}
+            </LinkItem>
             <LinkItem href="/about" path={path}>
               {t('navbar.about')}
             </LinkItem>

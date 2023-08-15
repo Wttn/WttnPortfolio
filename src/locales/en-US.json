@@ -1,5 +1,6 @@
 {
     "navbar": {
+        "home": "Home",
         "about": "About",
         "works": "Works",
         "illustrations": "Illustrations"
