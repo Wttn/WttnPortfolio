@@ -1,24 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Flex, Box, Text, VStack, Img, SimpleGrid } from '@chakra-ui/react';
 import styles from '../styles/illustrations.module.css';
-import { AiOutlineFullscreen } from 'react-icons/ai'
-
-
-import { images } from '../utils/imagePath'
+import { AiOutlineFullscreen } from 'react-icons/ai';
+import { images } from '../utils/imagePath';
 
 const Gallery = () => {
-
     const [currentImage, setCurrentImage] = useState(images[0]);
+    const [shouldDisableClick, setShouldDisableClick] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            const breakpoint = 768; // Defina o ponto de quebra para dispositivos móveis
+            setShouldDisableClick(window.innerWidth <= breakpoint);
+        };
+
+        window.addEventListener('resize', handleResize);
+        handleResize();
+
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
 
     const handleThumbnailClick = (image) => {
         window.scrollTo({
-            top: 0, behavior: "smooth"
-        })
+            top: 0,
+            behavior: 'smooth',
+        });
         setCurrentImage(image);
     };
 
     return (
-        <Box p={4} align="center"  >
+        <Box p={4} align="center">
             <div className={styles.mainBox}>
                 <Box id="main-image"
                     boxShadow="0px 8px 15px 0px rgba(51, 51, 51, 0.15)"
@@ -50,29 +63,34 @@ const Gallery = () => {
                     </Text>
                 </Flex>
             </div>
-            <SimpleGrid columns={[1, 1, 1, 2, 3]} gap="32px" maxW="fit-content" >
+            <SimpleGrid columns={[1, 1, 1, 2, 3]} gap="32px" maxW="fit-content">
                 {images.map((image, index) => (
-                    <VStack className={styles.imageCard} key={index} >
+                    <VStack className={`${styles.imageCard} ${shouldDisableClick ? 'no-click' : ''}`} key={index}>
                         <Flex
                             direction="column"
                             align="center"
                             borderRadius="16px"
                             overflow="hidden"
-                            cursor="pointer"
-                            onClick={() => handleThumbnailClick(image)}
+                            cursor={shouldDisableClick ? 'default' : 'pointer'}
+                            onClick={!shouldDisableClick ? () => handleThumbnailClick(image) : undefined}
                             className={styles.image}
                         >
-                            <Img className={styles.gridImage} src={image.thumbnail} alt={`Thumbnail ${index}`} mb={2} />
+                            <Img
+                                className={styles.gridImage}
+                                src={image.thumbnail}
+                                alt={`Thumbnail ${index}`}
+                                mb={2}
+                            />
                         </Flex>
                         <Box p="8px">
-                            <Text fontSize="20px" fontFamily="Montserrat" className={styles.title} >{image.title}</Text>
+                            <Text fontSize="20px" fontFamily="Montserrat" className={styles.title}>
+                                {image.title}
+                            </Text>
                         </Box>
                     </VStack>
                 ))}
             </SimpleGrid>
-
-
-        </Box >
+        </Box>
     );
 };
 

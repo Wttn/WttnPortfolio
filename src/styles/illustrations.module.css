@@ -71,4 +71,9 @@
     .mainBox {
         display: none;
     }
+
+    .no-click {
+        pointer-events: none;
+    }
+
 }
