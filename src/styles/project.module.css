@@ -1,0 +1,5 @@
+@media (max-width: 1365px) {
+    .mainContainer {
+        padding-inline: 2em !important;
+    }
+}

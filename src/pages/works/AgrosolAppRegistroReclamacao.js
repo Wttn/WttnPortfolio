@@ -13,7 +13,7 @@ import P from '../../components/paragraph'
 
 const Work = () => (
     <Layout title="Agro-sol App Registro de reclamação"  >
-        <Container maxW="container.full" paddingX={0}>
+        <Container maxW="container.full" paddingX={0} >
             <Center my={6} w={'full'} backgroundSize={'cover'} backgroundPosition={'center center'} bgColor="#29451E" >
                 <Image src="/images/works/App-Reclamacao-Agrosol 2.png" alt="icon" />
             </Center>
@@ -67,13 +67,19 @@ const Work = () => (
                                 Research Goals
                             </HeadingArticle>
                             <UnorderedList>
-                                <ListItem>Determine the current trend of existing players in the online retail market</ListItem>
+                                <ListItem>{"Determine the current trend of existing players in the online retail market"}</ListItem>
                                 <ListItem>{"Determine people's motivation for shopping in online shops"}</ListItem>
                                 <ListItem>{"Determine people's motivation for shopping in-store"} </ListItem>
                             </UnorderedList>
+                            <Box maxW="fit-content" boxShadow={"0px 8px 15px 0px rgba(51, 51, 51, 0.15)"} mt="1.5rem" mb="1.5rem">
+                                <Image src="/images/works/MobileAppFluxogram.png" alt="icon" />
+                            </Box>
                         </VStack>
+
                     </VStack>
+
                 </VStack>
+
             </Container>
 
             <Container mb="112px">
