@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Flex, Box, Grid, Text, VStack, Img, SimpleGrid } from '@chakra-ui/react';
+import { Flex, Box, Text, VStack, Img, SimpleGrid } from '@chakra-ui/react';
 import styles from '../styles/illustrations.module.css';
 import { AiOutlineFullscreen } from 'react-icons/ai'
 
