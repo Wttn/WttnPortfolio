@@ -28,7 +28,7 @@ const Work = () => {
 
                     <VStack spacing="1.5rem" align='center'>
 
-                        <VStack spacing="0.5rem" align='left' width="49rem" >
+                        <VStack spacing="0.5rem" align='left' width="49rem" maxWidth="100%" >
                             <Title>
                                 Hotel Avenida
                             </Title>
@@ -38,7 +38,7 @@ const Work = () => {
                             </Type>
 
                         </VStack >
-                        <VStack align="left" spacing="1rem" width="49rem" flexGrow={1} mt="16px">
+                        <VStack align="left" spacing="1rem" width="49rem" flexGrow={1} mt="16px" maxWidth="100%">
                             <VStack spacing="1rem" align='start' >
 
                                 <P>

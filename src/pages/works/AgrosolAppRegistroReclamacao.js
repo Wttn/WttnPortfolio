@@ -13,14 +13,14 @@ import P from '../../components/paragraph'
 
 const Work = () => (
     <Layout title="Agro-sol App Registro de reclamação"  >
-        <Container maxW="container.full" paddingX={0} >
+        <Container maxW="container.full" paddingX={0}   >
             <Center my={6} w={'full'} backgroundSize={'cover'} backgroundPosition={'center center'} bgColor="#29451E" >
                 <Image src="/images/works/App-Reclamacao-Agrosol 2.png" alt="icon" />
             </Center>
             <Container maxWidth="100%" mt="2rem">
-                <VStack spacing="1.5rem" align='center'>
+                <VStack spacing="1.5rem" align='center' maxWidth="100%"  >
 
-                    <VStack spacing="0.5rem" align='start' >
+                    <VStack spacing="0.5rem" align='start'  >
                         <Title>
                             Agro-sol APP Registro de Reclamação
                         </Title>
@@ -30,7 +30,7 @@ const Work = () => (
                         </Type>
 
                     </VStack >
-                    <VStack align="left" spacing="1rem" width="49rem" flexGrow={1} mt="16px">
+                    <VStack align="left" spacing="1rem" width="49rem" flexGrow={1} mt="16px" maxWidth="100%">
                         <VStack spacing="0.25rem" align='start' >
                             <HeadingArticle>
                                 Challenge
@@ -41,7 +41,7 @@ const Work = () => (
                             </P>
 
                         </VStack>
-                        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", width: "100%", }}>
+                        <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", maxWidth: "100%" }}>
                             <VStack align="start">
                                 <HeadingArticle>
                                     Tools
