@@ -17,6 +17,7 @@ const Logo = () => {
   return (
     <LogoBox>
       <Stack
+        className={styles.logoStack}
         paddingY="16px"
         direction="row"
         justify="flex-end"
