@@ -3,7 +3,8 @@
         "home": "Home",
         "about": "About",
         "works": "Works",
-        "illustrations": "Illustrations"
+        "illustrations": "Illustrations",
+        "language": "Language"
     },
     "home": {
         "greeting": "Hi! I’m Weltton.",

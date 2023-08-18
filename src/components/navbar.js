@@ -150,23 +150,23 @@ const Navbar = (props) => {
                 <MenuList>
                   <MenuGroup>
                     <MenuItem as={MenuLink} href="/">
-                      Home
+                      {t('navbar.home')}
                     </MenuItem>
                     <MenuItem as={MenuLink} href="/about">
-                      About
+                      {t('navbar.about')}
                     </MenuItem>
                     <MenuItem as={MenuLink} href="/works">
-                      Works
+                      {t('navbar.works')}
                     </MenuItem>
                     <MenuItem as={MenuLink} href="/illustrations">
-                      Illustrations
+                      {t('navbar.illustrations')}
                     </MenuItem>
                     <MenuItem as={MenuLink} href="/blog">
                       Blog
                     </MenuItem>
                   </MenuGroup>
                   <MenuDivider />
-                  <MenuOptionGroup title='Language' textAlign='left' defaultValue={translation.i18n.resolvedLanguage} type='radio'>
+                  <MenuOptionGroup title={t('navbar.language')} textAlign='left' defaultValue={translation.i18n.resolvedLanguage} type='radio'>
                     <MenuItemOption value="en-US" onClick={() => changeLanguage('en-US')}>English</MenuItemOption>
                     <MenuItemOption value="pt-BR" onClick={() => changeLanguage('pt-BR')}>Português</MenuItemOption>
                   </MenuOptionGroup>
