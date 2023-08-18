@@ -17,7 +17,6 @@ const Logo = () => {
   return (
     <LogoBox>
       <Stack
-        className={styles.logoStack}
         paddingY="16px"
         direction="row"
         justify="flex-end"
@@ -25,6 +24,7 @@ const Logo = () => {
       >
         <Stack height="121px" flex="1">
           <Image
+            className={styles.logo}
             alt="Wttn Logo"
             src="/images/logo.png"
             width="80px"
