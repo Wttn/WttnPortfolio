@@ -1,5 +1,6 @@
 import { Box, Text, Image, Stack } from '@chakra-ui/react'
 import styled from '@emotion/styled'
+import styles from '../styles/navbar.module.css'
 
 const LogoBox = styled.span`
 padding: 16 px;
@@ -16,7 +17,7 @@ const Logo = () => {
   return (
     <LogoBox>
       <Stack
-        paddingX="64px"
+        className={styles.logoStack}
         paddingY="16px"
         direction="row"
         justify="flex-end"

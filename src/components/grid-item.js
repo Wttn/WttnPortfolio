@@ -6,23 +6,24 @@ import styles from '../styles/works.module.css'
 
 export const GridHero = ({ title, thumbnail }) => (
   <Stack
+    className={styles.gridHeroStack}
     paddingX="12px"
     paddingY="24px"
     justify="center"
     align="center"
     borderColor="#000000"
-    borderStartWidth="3px"
-    borderTopWidth="3px"
-    borderBottomWidth="3px"
+    borderStyle="solid"
+    borderWidth="3px"
     background="#FFFFFF"
   >
     <Image
+      className={styles.gridHeroImage}
       src={thumbnail}
       alt={title}
     />
 
     <Text
-      fontSize={20}
+      className={styles.gridHeroText}
       fontFamily="Montserrat"
       fontWeight="medium"
       color="#000000"

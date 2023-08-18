@@ -11,3 +11,40 @@
     border-bottom: 1px solid transparent;
     transition: 0.3s ease-out;
 }
+
+
+@media (min-width: 1365px) {
+    .gridHeroStack {
+        width: 174px;
+        height: 160px;
+
+    }
+
+    .gridHeroImage {
+        width: 80px;
+        height: 80px;
+    }
+
+    .gridHeroText {
+        font-size: 18px;
+    }
+
+}
+
+
+@media (max-width: 950px) {
+    .gridHeroStack {
+        width: 110px;
+        height: 100px;
+    }
+
+    .gridHeroImage {
+        width: 50px;
+        height: 50px;
+    }
+
+    .gridHeroText {
+        font-size: 12px;
+    }
+
+}

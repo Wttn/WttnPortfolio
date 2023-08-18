@@ -15,8 +15,18 @@
 }
 
 @media (min-width: 1365px) {
+
+
   .heroBlock {
     position: relative;
+  }
+
+  .heroText {
+    font-family: "Montserrat";
+    font-weight: regular;
+    font-size: 36px;
+    color: #000000;
+    text-align: center;
   }
 
   .heroImage {
@@ -24,6 +34,7 @@
     position: absolute;
     top: -2.1875em;
   }
+
 }
 
 @media (max-width: 1365px) {
@@ -37,6 +48,15 @@
 }
 
 @media (max-width: 950px) {
+
+  .heroText {
+    font-family: "Montserrat";
+    font-weight: regular;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+  }
+
   .heroBlock {
     justify-content: center;
   }

@@ -1,0 +1,23 @@
+.headerContainer {
+    padding-inline: 80px;
+    display: flex;
+    direction: row;
+    align-items: center;
+    max-width: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+}
+
+.logoStack {
+    padding-inline: 64px;
+}
+
+@media (max-width: 1280px) {
+    .headerContainer {
+        padding: 0;
+    }
+
+    .logoStack {
+        padding-inline: 32px;
+    }
+}

@@ -13,14 +13,18 @@ import {
   MenuButton,
   IconButton,
   useColorModeValue,
-  Button
+  Button,
+  MenuOptionGroup,
+  MenuItemOption,
+  MenuDivider,
+  MenuGroup
 } from '@chakra-ui/react';
 import { HamburgerIcon, ChevronDownIcon } from '@chakra-ui/icons';
 import { FaLanguage } from "react-icons/fa6";
 import NextLink from 'next/link';
 import Logo from './logo';
 import i18n from '../i18n.js'
-
+import styles from '../styles/navbar.module.css'
 
 const LinkItem = ({ href, target, children, ...props }) => {
   const router = useRouter();
@@ -70,14 +74,14 @@ const Navbar = (props) => {
         zIndex={1}
         {...props}
       >
-        <Container
+        <div
           display="flex"
-          paddingX="64px"
           direction="row"
           align="center"
           maxW="100%"
           bg={useColorModeValue('#ffffff')}
           justifyContent="space-between"
+          className={styles.headerContainer}
         >
           <Logo />
 
@@ -145,32 +149,33 @@ const Navbar = (props) => {
                   aria-label="Options"
                 />
                 <MenuList>
-                  <MenuItem as={MenuLink} href="/">
-                    Home
-                  </MenuItem>
-                  <MenuItem as={MenuLink} href="/about">
-                    About
-                  </MenuItem>
-                  <MenuItem as={MenuLink} href="/works">
-                    Works
-                  </MenuItem>
-                  <MenuItem as={MenuLink} href="/illustrations">
-                    Illustrations
-                  </MenuItem>
-                  <MenuItem as={MenuLink} href="/blog">
-                    Blog
-                  </MenuItem>
-                  <MenuItem onClick={() => changeLanguage('en')}>
-                    English
-                  </MenuItem>
-                  <MenuItem onClick={() => changeLanguage('pt')}>
-                    Português
-                  </MenuItem>
+                  <MenuGroup>
+                    <MenuItem as={MenuLink} href="/">
+                      Home
+                    </MenuItem>
+                    <MenuItem as={MenuLink} href="/about">
+                      About
+                    </MenuItem>
+                    <MenuItem as={MenuLink} href="/works">
+                      Works
+                    </MenuItem>
+                    <MenuItem as={MenuLink} href="/illustrations">
+                      Illustrations
+                    </MenuItem>
+                    <MenuItem as={MenuLink} href="/blog">
+                      Blog
+                    </MenuItem>
+                  </MenuGroup>
+                  <MenuDivider />
+                  <MenuOptionGroup title='Language' textAlign='left' defaultValue={translation.i18n.resolvedLanguage} type='radio'>
+                    <MenuItemOption value="en-US" onClick={() => changeLanguage('en-US')}>English</MenuItemOption>
+                    <MenuItemOption value="pt-BR" onClick={() => changeLanguage('pt-BR')}>Português</MenuItemOption>
+                  </MenuOptionGroup>
                 </MenuList>
               </Menu>
             </Box>
           </Box>
-        </Container>
+        </div>
       </Box>
     </I18nextProvider>
 

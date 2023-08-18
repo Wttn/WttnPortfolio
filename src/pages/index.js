@@ -43,14 +43,9 @@ const Page = () => {
   return (
     <Container maxW="container.lg" className={styles.mainContainer}>
       <Text
-        fontFamily="Montserrat"
-        fontWeight="regular"
-        fontSize="36px"
-        color="#000000"
-        minHeight="131px"
-        textAlign="center"
+        className={styles.heroText}
       >
-        <span style={{ fontSize: '40px' }}>{t('home.greeting')}</span>
+        <span >{t('home.greeting')}</span>
         <br />
         <span>
           <strong>{t('home.description')}</strong> {t('home.from')}
@@ -70,7 +65,7 @@ const Page = () => {
             maxWidth="100%"
             mt={6}
           >
-            <SimpleGrid columns={[1, 2, 2]} gap={3}>
+            <SimpleGrid columns={[2]} gap="6px" >
               <GridHero
                 thumbnail={IconIdeation}
                 title={t('home.headerGrid.ideation')}
