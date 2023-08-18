@@ -95,6 +95,7 @@ const Page = () => {
           className={styles.worksContainer}
         >
           <Heading
+            className={styles.latestWorksText}
             fontFamily="Montserrat"
             fontWeight="bold"
             fontSize="2.25rem"

@@ -6,6 +6,7 @@ import { WorkGrid } from '../../components/grid-item'
 import ThumbAgro from '../../../public/images/thumbnail/AppReclamacaoAgrosol-thumbnail.png'
 import ThumbHotelAvenida from '../../../public/images/thumbnail/HotelAvenida-thumbnail.png'
 import ThumbAgroDesignSystem from '../../../public/images/thumbnail/AgrosolDesignSystem-thumbnail.png'
+import styles from '../../styles/project.module.css'
 
 const Works = () => {
     const { t } = useTranslation();
@@ -13,10 +14,8 @@ const Works = () => {
         <Stack>
             <Container>
                 <Heading
-                    fontFamily="Montserrat"
-                    fontWeight="bold"
+                    className={styles.headerText}
                     fontSize="36px"
-                    color="#FFFFFF"
                     mt={16}>
                     {t('home.latestWorks')}
                 </Heading>

@@ -1,6 +1,7 @@
 import { Container, Heading, SimpleGrid, Stack } from '@chakra-ui/react'
 import Section from '../../components/section'
 import { BlogGrid } from '../../components/grid-item'
+import styles from '../../styles/project.module.css'
 
 import thumbRedesign from '../../../public/images/thumbnail/RedesignPortfolio-thumbnail.png'
 
@@ -9,10 +10,8 @@ const Blog = () => {
         <Stack>
             <Container>
                 <Heading
-                    fontFamily="Montserrat"
-                    fontWeight="bold"
+                    className={styles.headerText}
                     fontSize="36px"
-                    color="#FFFFFF"
                     mt={16}>
                     Blog
                 </Heading>

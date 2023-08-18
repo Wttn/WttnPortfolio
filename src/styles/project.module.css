@@ -1,3 +1,13 @@
+.headerText {
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF;
+
+}
+
+
 @media (max-width: 1365px) {
     .mainContainer {
         padding-inline: 2em !important;
