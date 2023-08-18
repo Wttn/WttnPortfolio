@@ -36,7 +36,7 @@ const Work = () => (
                                 Challenge
                             </HeadingArticle>
 
-                            <P>
+                            <P >
                                 This project initially started with a small conversation with the quality department manager, aiming to find a more effective way to manage complaints submitted to her department. At that time, all records were manually entered and controlled by her department.
                             </P>
 
@@ -66,11 +66,13 @@ const Work = () => (
                             <HeadingArticle>
                                 Research Goals
                             </HeadingArticle>
-                            <UnorderedList>
-                                <ListItem>{"Determine the current trend of existing players in the online retail market"}</ListItem>
-                                <ListItem>{"Determine people's motivation for shopping in online shops"}</ListItem>
-                                <ListItem>{"Determine people's motivation for shopping in-store"} </ListItem>
-                            </UnorderedList>
+                            <P>
+                                <UnorderedList>
+                                    <ListItem>{"Determine the current trend of existing players in the online retail market"}</ListItem>
+                                    <ListItem>{"Determine people's motivation for shopping in online shops"}</ListItem>
+                                    <ListItem>{"Determine people's motivation for shopping in-store"} </ListItem>
+                                </UnorderedList>
+                            </P>
                             <Box maxW="fit-content" boxShadow={"0px 8px 15px 0px rgba(51, 51, 51, 0.15)"} mt="1.5rem" mb="1.5rem">
                                 <Image src="/images/works/MobileAppFluxogram.png" alt="icon" />
                             </Box>
