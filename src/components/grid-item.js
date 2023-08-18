@@ -12,19 +12,13 @@ export const GridHero = ({ title, thumbnail }) => (
     align="center"
     borderColor="#000000"
     borderStartWidth="3px"
-    borderEndWidth="3px"
     borderTopWidth="3px"
     borderBottomWidth="3px"
-    width="174px"
-    height="160px"
     background="#FFFFFF"
   >
     <Image
       src={thumbnail}
       alt={title}
-      className="grid-item-thumbnail"
-      width={80}
-      height={80}
     />
 
     <Text
@@ -32,7 +26,6 @@ export const GridHero = ({ title, thumbnail }) => (
       fontFamily="Montserrat"
       fontWeight="medium"
       color="#000000"
-      width="150px"
       textAlign="center"
     >
       {title}
