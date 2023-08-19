@@ -49,6 +49,7 @@
   }
 }
 
+
 @media (max-width: 950px) {
 
   .heroText {
@@ -74,4 +75,6 @@
   .latestWorksText {
     text-align: center;
   }
+
+
 }

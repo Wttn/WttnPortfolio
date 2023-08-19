@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 
 import { FaFile, FaLinkedin } from 'react-icons/fa'
 import AvatarProfile from '../../public/images/profilephoto.png'
+import styles from '../styles/about.module.css'
+
 
 const SocialButton = ({
     children,
@@ -61,10 +63,23 @@ const About = () => {
                 </Heading>
             </Container>
             <Container paddingY="24px" display="flex" align-items=" flex-start" gap="2rem" maxWidth="100%">
-                <Container maxWidth="100%" width="32.4375rem" align='start' padding="0rem" margin="0rem" >
+                <Container align='start' padding="0rem" margin="0rem" className={styles.mainContainer} >
                     <Text fontFamily="Montserrat" fontStyle="Normal" fontSize="16px" color="#1E1E1E" lineHeight="27px" fontWeight="400" padding="0" >
                         {t('about.aboutIntroduction')}
                     </Text>
+                    <Image
+                        src={AvatarProfile}
+                        alt={"Weltton"}
+                        className={styles.aboutMobilePhoto}
+                    />
+                    <div className={styles.aboutLinksMobile} >
+                        <SocialButton label={'Resume'} href={'../resume.pdf'} >
+                            <FaFile />
+                        </SocialButton>
+                        <SocialButton label={'Linkedin'} href={'https://www.linkedin.com/in/weltton/'}>
+                            <FaLinkedin />
+                        </SocialButton>
+                    </div>
                     <Text fontFamily="Montserrat" fontStyle="Normal" fontSize="30px" color="#1E1E1E" fontWeight="400" margin="0rem" paddingY="8px"  >
                         {t('about.aboutHeader2')}
                     </Text>
@@ -72,21 +87,20 @@ const About = () => {
                         {t('about.aboutText')}
                     </Text>
                 </Container>
-                <Container width={'fit-content'}>
+                <Container width={'fit-content'} className={styles.desktopContainer}>
                     <Image
                         src={AvatarProfile}
                         alt={"Weltton"}
-                        style={{ borderRadius: '64px', width: '254.02px', height: '565px' }}
-
+                        className={styles.aboutDesktopPhoto}
                     />
-                    <Stack spacing="1.5rem" padding="32px">
+                    <div className={styles.aboutLinksDesktop} >
                         <SocialButton label={'Resume'} href={'../resume.pdf'} >
                             <FaFile />
                         </SocialButton>
                         <SocialButton label={'Linkedin'} href={'https://www.linkedin.com/in/weltton/'}>
                             <FaLinkedin />
                         </SocialButton>
-                    </Stack>
+                    </div>
 
                 </Container>
 
