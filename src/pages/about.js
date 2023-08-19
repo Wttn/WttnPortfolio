@@ -1,4 +1,4 @@
-import { Container, Heading, Stack, chakra, Text } from '@chakra-ui/react'
+import { Container, Heading, chakra, Text } from '@chakra-ui/react'
 import Image from 'next/image'
 import { useTranslation } from 'react-i18next';
 
