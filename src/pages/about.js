@@ -38,7 +38,8 @@ const SocialButton = ({
 
 
 const About = () => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const resumeLink = i18n.language === 'pt-BR' ? '/resume_pt.pdf' : '/resume_en.pdf';
     return (
         <Container maxW="container.lg">
             <Container maxWidth="100%">
@@ -73,14 +74,14 @@ const About = () => {
                         className={styles.aboutMobilePhoto}
                     />
                     <div className={styles.aboutLinksMobile} >
-                        <SocialButton label={'Resume'} href={'../resume.pdf'} >
+                        <SocialButton label={'Resume'} href={resumeLink}>
                             <FaFile />
                         </SocialButton>
                         <SocialButton label={'Linkedin'} href={'https://www.linkedin.com/in/weltton/'}>
                             <FaLinkedin />
                         </SocialButton>
                     </div>
-                    <Text fontFamily="Montserrat" fontStyle="Normal" fontSize="30px" color="#1E1E1E" fontWeight="400" margin="0rem" paddingY="8px"  >
+                    <Text fontFamily="Montserrat" fontStyle="Normal" fontSize="30px" color="#1E1E1E" fontWeight="400" margin="0rem" paddingY="8px" width="100%"  >
                         {t('about.aboutHeader2')}
                     </Text>
                     <Text fontFamily="Montserrat" fontStyle="Normal" fontSize="16px" color="#1E1E1E" lineHeight="27px" fontWeight="400" padding="0" >
@@ -94,7 +95,7 @@ const About = () => {
                         className={styles.aboutDesktopPhoto}
                     />
                     <div className={styles.aboutLinksDesktop} >
-                        <SocialButton label={'Resume'} href={'../resume.pdf'} >
+                        <SocialButton label={'Resume'} href={resumeLink}>
                             <FaFile />
                         </SocialButton>
                         <SocialButton label={'Linkedin'} href={'https://www.linkedin.com/in/weltton/'}>
