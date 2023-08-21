@@ -25,7 +25,7 @@ const Page = () => {
   const latestWorks = [
     {
       id: 'AgrosolAppRegistroReclamacao',
-      title: 'Agro-Sol APP Registro de Reclamação',
+      title: t('work.agrosolApp'),
       thumbnail: ThumbAgro
     },
     {

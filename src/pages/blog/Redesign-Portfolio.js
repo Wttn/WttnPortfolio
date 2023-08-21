@@ -19,7 +19,7 @@ import { ChevronRightIcon } from '@chakra-ui/icons'
 const Work = () => {
     const { t } = useTranslation();
     return (
-        <Layout title="Redesign Portfolio"  >
+        <Layout title="Portfolio Redesign"  >
             <Container maxW="container.full" paddingX={0}>
                 <Center my={6} w={'full'} backgroundSize={'cover'} backgroundPosition={'center center'} bgColor="black" >
                     <Image src="../images/blog/new-portfolio-post.png" alt="Wttn logo post" padding="24px" />
@@ -30,7 +30,7 @@ const Work = () => {
                         <VStack spacing="0.5rem" align='left' width="49rem" maxWidth="100%" >
 
                             <Title>
-                                Redesign Portfolio
+                                Portfolio Redesign
                             </Title>
 
                             <Type>

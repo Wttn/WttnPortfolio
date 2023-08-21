@@ -19,6 +19,9 @@
         },
         "latestWorks": "Latest Works"
     },
+    "work": {
+        "agrosolApp": "Agro-Sol Complaint Registration App"
+    },
     "about": {
         "helloHeader": "Hey, there!",
         "nameHeader": "I'm Weltton Ortega",

@@ -19,6 +19,9 @@
         },
         "latestWorks": "Últimos projetos"
     },
+    "work": {
+        "agrosolApp": "Agro-Sol APP Registro de Reclamação"
+    },
     "about": {
         "helloHeader": "E aí, tudo bem?",
         "nameHeader": "Me chamo Weltton Ortega",

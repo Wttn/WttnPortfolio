@@ -18,7 +18,7 @@ const Blog = () => {
 
                 <SimpleGrid columns={[1, 2, 2]} gap={6} mt={16}>
                     <Section>
-                        <BlogGrid id="Redesign-Portfolio" title="Redesign Portfolio" thumbnail={thumbRedesign}>
+                        <BlogGrid id="Redesign-Portfolio" title="Portfolio Redesign" thumbnail={thumbRedesign}>
                         </BlogGrid>
                     </Section>
                     <Section>
