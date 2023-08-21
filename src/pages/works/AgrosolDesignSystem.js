@@ -32,7 +32,7 @@ const Work = () => {
                             </Type>
 
                         </VStack >
-                        <VStack align="left" spacing="1rem" width="49rem" flexGrow={1} mt="16px" maxWidth="100%">
+                        <VStack align="left" spacing="1rem" width="49rem" flexGrow={1} maxWidth="100%">
                             <VStack spacing="0.25rem" align='start' >
                                 <HeadingArticle>
                                     {t('agrosolDesign.overviewHeader')}
@@ -60,9 +60,9 @@ const Work = () => {
                                 <P>
                                     {t('agrosolDesign.methodologyParagraph')}
                                 </P>
-                                <Stack align="center" >
+                                <Stack align="center" mt="24px" mb="24px">
 
-                                    <Box maxW="fit-content" boxShadow={"0px 1px 10px 0px rgba(51, 51, 51, 0.15)"} mt="1.5rem" mb="1.5rem">
+                                    <Box maxW="fit-content" boxShadow={"0px 1px 10px 0px rgba(51, 51, 51, 0.15)"} mt="2rem" >
                                         <Image src="/images/works/AtomicDesignSystem.png" alt="A screenshot of hotel avenida website" />
 
                                     </Box>
@@ -70,25 +70,27 @@ const Work = () => {
                                         {t('agrosolDesign.image1Description')}
                                     </DescriptionImage>
                                 </Stack>
-                                <HeadingArticle>
-                                    {t('agrosolDesign.stage1Header')}
-                                </HeadingArticle>
-                                <P>
-                                    {t('agrosolDesign.stage1Paragraph')}
-                                </P>
-                                <HeadingArticle>
-                                    {t('agrosolDesign.stage2Header')}
-                                </HeadingArticle>
-                                <P>
-                                    {t('agrosolDesign.stage2Paragraph')}
-                                </P>
-                                <HeadingArticle>
-                                    {t('agrosolDesign.stage3Header')}
-                                </HeadingArticle>
-                                <P>
-                                    {t('agrosolDesign.stage3Paragraphg')}
-                                </P>
-                                <Stack align="center" >
+                                <Stack mt="24px">
+                                    <HeadingArticle>
+                                        {t('agrosolDesign.stage1Header')}
+                                    </HeadingArticle>
+                                    <P>
+                                        {t('agrosolDesign.stage1Paragraph')}
+                                    </P>
+                                    <HeadingArticle>
+                                        {t('agrosolDesign.stage2Header')}
+                                    </HeadingArticle>
+                                    <P>
+                                        {t('agrosolDesign.stage2Paragraph')}
+                                    </P>
+                                    <HeadingArticle>
+                                        {t('agrosolDesign.stage3Header')}
+                                    </HeadingArticle>
+                                    <P>
+                                        {t('agrosolDesign.stage3Paragraphg')}
+                                    </P>
+                                </Stack>
+                                <Stack align="center" mt="24px" >
 
                                     <Box maxW="fit-content" boxShadow={"0px 1px 10px 0px rgba(51, 51, 51, 0.15)"} mt="1.5rem" mb="1.5rem">
                                         <Image src="/images/works/AgrosolDesignSystemGeneral.png" alt="A screenshot of hotel avenida website" />
@@ -98,12 +100,14 @@ const Work = () => {
                                         {t('agrosolDesign.image2Description')}
                                     </DescriptionImage>
                                 </Stack>
-                                <HeadingArticle>
-                                    {t('agrosolDesign.outcomeHeader')}
-                                </HeadingArticle>
-                                <P>
-                                    {t('agrosolDesign.outcomeParagraph')}
-                                </P>
+                                <Stack mt="24px">
+                                    <HeadingArticle >
+                                        {t('agrosolDesign.outcomeHeader')}
+                                    </HeadingArticle>
+                                    <P>
+                                        {t('agrosolDesign.outcomeParagraph')}
+                                    </P>
+                                </Stack>
                             </VStack>
                         </VStack>
                     </VStack>
