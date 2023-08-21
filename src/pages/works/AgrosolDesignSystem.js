@@ -11,7 +11,6 @@ import { Title, Type, HeadingArticle, DescriptionImage } from '../../components/
 import P from '../../components/paragraph'
 import { useTranslation } from 'react-i18next';
 
-
 const Work = () => {
     const { t } = useTranslation();
     return (

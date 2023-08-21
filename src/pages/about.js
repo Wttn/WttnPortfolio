@@ -36,7 +36,6 @@ const SocialButton = ({
 };
 
 
-
 const About = () => {
     const { t, i18n } = useTranslation();
     const resumeLink = i18n.language === 'pt-BR' ? '/resume_pt.pdf' : '/resume_en.pdf';
