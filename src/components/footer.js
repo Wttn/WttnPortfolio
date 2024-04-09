@@ -54,9 +54,9 @@ export default function Footer() {
         >
           <Text fontFamily="Montserrat" fontSize="16px">2023 © WTTN </Text>
           <Stack direction={'row'} spacing="1.5rem">
-            <SocialButton label={'Twitter'} href={'https://dribbble.com/wttn'}>
+            {/* <SocialButton label={'Twitter'} href={'https://dribbble.com/wttn'}>
               <FaDribbble />
-            </SocialButton>
+            </SocialButton> */}
             <SocialButton label={'Linkedin'} href={'https://www.linkedin.com/in/weltton/'}>
               <FaLinkedin />
             </SocialButton>
