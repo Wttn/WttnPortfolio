@@ -70,7 +70,7 @@ const Work = () => {
                             </Stack>
                             <Button
                                 as={NextLink}
-                                href="https://avenidahotel.com.br/"
+                                href="https://lp.avenidahotel.com.br/"
                                 target="_blank"
                                 scroll={false}
                                 rightIcon={<ChevronRightIcon />}
